@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Black 360 | Assessoria de Marketing</title>
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Biblioteca de animações -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body>
+
+  <!-- CABEÇALHO -->
+  <header>
+    <div class="logo">
+      <img src="img/logo.jpg" alt="Black 360 Logo">
+    </div>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#beneficios">Benefícios</a>
+      <a href="#cases">Cases</a>
+      <a href="#empresas">Empresas</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="overlay"></div>
+    <div class="content">
+      <h1>
+        <span id="typed-text"></span><span class="cursor">|</span>
+      </h1>
+      <p>Aceleramos o crescimento da sua empresa com estratégias inteligentes e tecnologia de performance.</p>
+      <a href="#formulario" class="cta">Quero acelerar meu marketing</a>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section id="sobre" class="sobre">
+    <h2>Quem Somos</h2>
+    <p>A Black 360° é uma assessoria de marketing especializada em posicionamento digital, performance e crescimento estratégico. Criamos soluções que conectam marcas e pessoas, com resultados reais.</p>
+  </section>
+
+  <!-- BENEFÍCIOS -->
+  <section id="beneficios" class="beneficios">
+    <h2>Benefícios da Black 360°</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Mais Visibilidade</h3>
+        <p>Posicionamos sua marca à frente dos clientes certos com estratégias personalizadas.</p>
+      </div>
+      <div class="card">
+        <h3>Retorno sobre Investimento</h3>
+        <p>Cada campanha é otimizada para gerar conversões e resultados reais.</p>
+      </div>
+      <div class="card">
+        <h3>Crescimento Acelerado</h3>
+        <p>Alavancamos seu negócio com planejamento estratégico e branding eficaz.</p>
+      </div>
+      <div class="card">
+        <h3>Tudo Integrado</h3>
+        <p>Gestão completa de marketing, social media e tráfego, em um único time.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CASES -->
+  <section id="cases" class="cases">
+    <h2>Resultados Reais</h2>
+    <div class="grid">
+      <div class="case">
+        <p class="quote">“Aumentamos em 250% nosso faturamento em apenas 3 meses com a gestão da Black 360°.”</p>
+        <h4>— Loja Vortex</h4>
+      </div>
+      <div class="case">
+        <p class="quote">“O tráfego pago estruturado pela equipe elevou nosso alcance e dobramos as vendas.”</p>
+        <h4>— Studio Lux</h4>
+      </div>
+      <div class="case">
+        <p class="quote">“Finalmente uma assessoria que entende do digital e entrega resultado concreto.”</p>
+        <h4>— Empreendedora Local</h4>
+      </div>
+    </div>
+  </section>
+
+  <!-- EMPRESAS -->
+  <section id="empresas" class="empresas">
+    <h2>Empresas que confiam na Black 360°</h2>
+
+    <div class="upload-container">
+      <label for="empresaUpload" class="upload-btn">+ Adicionar empresa</label>
+      <input type="file" id="empresaUpload" accept="image/*">
+    </div>
+
+    <div class="grid" id="empresaGrid">
+      <!-- Logos e nomes aparecerão aqui -->
+    </div>
+  </section>
+
+  <!-- FORMULÁRIO -->
+  <section id="formulario" class="formulario">
+    <h2>Fale com a Black 360°</h2>
+    <p>Preencha o formulário abaixo e nossa equipe entrará em contato com você.</p>
+    <form class="lead-form">
+      <input type="text" name="nome" placeholder="Seu nome" required>
+      <input type="email" name="email" placeholder="Seu e-mail" required>
+      <input type="tel" name="telefone" placeholder="Seu telefone (opcional)">
+      <textarea name="mensagem" rows="4" placeholder="Conte um pouco sobre seu negócio..."></textarea>
+      <button type="submit">Enviar no WhatsApp</button>
+    </form>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" class="contato">
+    <h2>Outros Contatos</h2>
+    <p><strong>E-mail:</strong> <a href="mailto:black360oficial@gmail.com">black360oficial@gmail.com</a></p>
+    <p><strong>Instagram:</strong> <a href="https://instagram.com/assessoria.black" target="_blank">@assessoria.black</a></p>
+    <p><strong>WhatsApp:</strong> <a href="https://wa.me/5534991504537" target="_blank">+55 34 99150-4537</a></p>
+  </section>
+
+  <!-- RODAPÉ -->
+  <footer>
+    <p>© 2025 Black 360° | Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- BOTÃO FLUTUANTE WHATSAPP -->
+  <a href="https://wa.me/5534991504537?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20Black%20360°" 
+     class="whatsapp-float" target="_blank" aria-label="Fale conosco no WhatsApp">
+    <img src="img/whatsapp-icon.png" alt="WhatsApp">
+  </a>
+
+  <!-- SCRIPT -->
+  <script src="script.js"></script>
+</body>
+</html>
