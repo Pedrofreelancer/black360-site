@@ -232,12 +232,20 @@ p {
   box-shadow: 0 0 20px rgba(123, 63, 228, 0.4);
 }
 
-.empresa-item img {
-  height: 80px;
-  width: auto;
-  border-radius: 10px;
-  margin-bottom: 10px;
+.empresa img {
+  width: 100%;
+  max-width: 110px; /* largura máxima da logo */
+  height: auto;
+  max-height: 60px; /* altura máxima da logo */
   object-fit: contain;
+  margin-bottom: 12px;
+  filter: brightness(0.9);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.empresa img:hover {
+  transform: scale(1.05);
+  filter: brightness(1);
 }
 
 .empresa-item span {
