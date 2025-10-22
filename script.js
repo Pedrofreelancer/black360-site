@@ -30,6 +30,7 @@ const typedTextSpan = document.getElementById('typed-text');
 const cursorSpan = document.querySelector('.cursor');
 
 const textArray = [
+  "Sua empresa está invisível no digital?",
   "Transforme sua marca com a Black 360°",
   "Estratégia, Performance e Resultados.",
   "Seu negócio no próximo nível digital."
